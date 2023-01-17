@@ -15,3 +15,12 @@ console.log(producto.disponible);
 
 // sintaxis por nombre de la propiedad
 console.log(producto["precio"])
+
+// Agregar nuevas propiedades
+// solo con un punto y poniendo una que no exista y su valor
+producto.imagen = 'imagen.jpg';
+console.log(producto)
+
+// Eliminar propiedad
+delete producto.disponible;
+console.log(producto)

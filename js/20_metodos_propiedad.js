@@ -13,7 +13,6 @@ const reproductor = {
     reproducirPlaylist: function(nombre) {
         console.log(`Reproduciendo la playlist: ${nombre}`);
     }
-
 }
 
 // añadir una propiedad fuera del objeto
